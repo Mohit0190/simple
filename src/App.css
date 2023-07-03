@@ -1,0 +1,53 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*List COmponent css */
+.container{
+  
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid rgb(241, 177, 177);
+  max-width: 1200px;
+}
+.img-box{
+  width: 100px;
+  margin-top: 10px;
+  padding: 3px;
+ 
+}
+img{
+  width:100%;
+  border-radius: 50%;
+}
+
+
+/* Inputfield component css */
+.field{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+   height: 50vh;
+  border: 2px solid white;
+  background-image: radial-gradient(rgb(138, 51, 65),purple,rgb(117, 117, 131));
+}
+
+input[type="text"]{
+  margin: 2px;
+  padding: 5px;
+  width: 40%;
+  border-radius: 40px;
+  background-color: aliceblue;
+  color: black;
+}
+.flexitems{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
